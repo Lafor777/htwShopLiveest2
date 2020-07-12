@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.htw.htwShopLive.Mainmenu">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/actionHome"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:orderInCategory="100"
+            android:title="Home"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actiononSale"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:orderInCategory="100"
+            android:title="On sale?"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionCloseApp"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:orderInCategory="100"
+            android:title="Close App"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_settings4"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:orderInCategory="100"
+            android:title="Close"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_settings5"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionAdmin"
+            android:icon="@drawable/ic_playlist_add_black_24dp"
+            android:orderInCategory="100"
+            android:title="Admin_Add"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>
